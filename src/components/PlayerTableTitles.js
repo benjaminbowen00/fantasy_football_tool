@@ -8,6 +8,7 @@ class PlayerTableTitles extends Component {
       <tr>
         <th>Photo</th>
         <th>Player</th>
+        <th>Form</th>
         <th>Transfers in</th>
         <th>Transfers out</th>
         <th>Net transfers</th>

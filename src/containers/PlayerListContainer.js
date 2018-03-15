@@ -24,7 +24,7 @@ componentDidMount() {
     const data = JSON.parse(jsonString);
 
     data.elements.sort(this.compareOnForm);
-    const savedData = data.elements.slice(0, 5)
+    const savedData = data.elements.slice(0, 10)
     this.setState({players: savedData})
   });
 
